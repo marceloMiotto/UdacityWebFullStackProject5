@@ -2,20 +2,20 @@
     Fifth project at Udacity Nanodegree Web FullStack.
     This project is a Linux server setup
 
-#Host
+# Host
     Amazon Lightsail
 
-#IP
+# IP
     18.215.208.255
 
-#URL
+# URL
     http://18.215.208.255/ 
     (Did not find a default url for the instance)
 
-#User
+# User
     grader
     
-#Softwares
+# Softwares
     Ubuntu                 18.04.1
     Python                 2.7.12
     PostgreSQL             9.5.14
@@ -25,12 +25,12 @@
     Finger                 last version
     Libapache2-mod-wsgi    last_version
 
-#Ubuntu
+# Ubuntu
     Commands to update the packages:
         apt-get update
         apt-get upgrade
     
-#Python modules
+# Python modules
     Flask
     Psycopg2
     Sqlalchemy
@@ -38,11 +38,11 @@
     Flask_oauth 
     Oauth2client
 
-#Application Catalog
+# Application Catalog
     Deployed at:
         /var/www/html
 
-#Settings Changed Files
+# Settings Changed Files
     Ubuntu:
         sshd_config: 
             Authorized Key Files : uncomment
@@ -52,7 +52,7 @@
         000-default.conf:
             define the wsgi path
 
-#PostgreSQL
+# PostgreSQL
     Commands used:
         CREATE USER catalog;
         ALTER USER catalog PASSWORD *****;
