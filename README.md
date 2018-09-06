@@ -57,4 +57,20 @@
         CREATE USER catalog;
         ALTER USER catalog PASSWORD *****;
         CREATE DATABASE catalog OWNER catalog;
+        
+        
+# Third Party Resources
+    Firewall:
+        http://www.configserverfirewall.com/ufw-ubuntu-firewall/ufw-block-ports/
+        
+    SSH:
+        https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
+        
+    Apache WSGI:
+        http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/
+        
+    Postgres:
+        https://www.postgresql.org/docs/9.1/static/app-createuser.html
     
+    Udacity:
+        All course material
